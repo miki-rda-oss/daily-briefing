@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☀️ 朝のブリーフィング</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif; background: #f0f2f5; color: #1a202c; line-height: 1.75; }
+
+  .hero { background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%); color: white; padding: 32px 20px 28px; }
+  .hero-title { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; }
+  .hero-date { font-size: 0.85rem; opacity: 0.85; margin-top: 6px; }
+
+  .container { max-width: 720px; margin: 0 auto; padding: 16px 12px 40px; }
+
+  .card { background: white; border-radius: 16px; padding: 20px; margin-bottom: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+
+  h1 { display: none; }
+  h2 { font-size: 1rem; font-weight: 700; color: #f7971e; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid #f0f2f5; display: flex; align-items: center; gap: 6px; }
+  h3 { font-size: 0.92rem; font-weight: 700; color: #4a5568; margin: 14px 0 8px; background: #f7fafc; padding: 6px 10px; border-radius: 8px; }
+
+  p { font-size: 0.9rem; margin-bottom: 6px; color: #2d3748; }
+  ul { list-style: none; padding: 0; }
+  li { font-size: 0.9rem; padding: 5px 0 5px 16px; border-bottom: 1px solid #f7fafc; position: relative; color: #2d3748; }
+  li::before { content: '·'; position: absolute; left: 4px; color: #f7971e; font-weight: bold; }
+  li.num::before { display: none; }
+  li.num { padding-left: 4px; }
+  li.check::before { display: none; }
+  li.check { padding-left: 4px; }
+  .checkbox { margin-right: 6px; color: #a0aec0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 4px; }
+  th { background: #f7fafc; padding: 8px 10px; text-align: left; font-weight: 600; color: #4a5568; border-bottom: 2px solid #e2e8f0; }
+  td { padding: 8px 10px; border-bottom: 1px solid #f0f2f5; vertical-align: top; color: #2d3748; }
+  tr:hover td { background: #f7fafc; }
+
+  hr { border: none; border-top: 1px solid #e2e8f0; margin: 16px 0; }
+  strong { color: #1a202c; }
+
+  .section-wrap { }
+  .updated { text-align: center; font-size: 0.75rem; color: #a0aec0; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-title">☀️ 朝のブリーフィング</div>
+  <div class="hero-date">2026-05-16</div>
+</div>
+<div class="container">
+  <div class="card section-wrap">
+    <h1>朝のブリーフィング 2026-05-16</h1>
+<h2>今日の予定</h2>
+<table><thead><tr><th>時刻</th><th>予定</th><th>場所/方法</th></tr></thead><tbody><tr><td>16:00 - 21:00</td><td>大さん　交流会（Spring Night）</td><td>ペンギンバーイタリアン（大阪・堂山町）受付16:30 / 開始17:00</td></tr><tr><td>17:00 - 17:15</td><td>面接盛岡　菊地 華さん</td><td>Zoom（ID: 917 343 6103）</td></tr><tr><td>17:15 - 17:30</td><td>面接盛岡　泉 唯月さん</td><td>Zoom（ID: 917 343 6103）</td></tr></tbody></table>
+<p>⚠️ <strong>重大な時間重複あり</strong>：17:00-17:30の盛岡面接2件と、16:00-21:00の交流会（17:00スタート）が完全に重なっています。交流会会場（堂山町）で17時開始のセッションを抜けてZoom面接2本に対応するのは現実的に厳しいです。以下のいずれかを早急に判断してください。</p>
+<ul><li>① 面接を時間変更（一番現実的）</li>
+<p><li>② 交流会会場の静かなスペース or 近隣カフェからZoom参加</li></p>
+<p><li>③ 面接を別担当者へ委任</li></p>
+<p>⚠️ 交流会は大阪・北区、面接はZoomのため<strong>安定したWi-Fi/イヤホン</strong>必須。</p>
+<hr>
+<h2>🎯 今日の最重要タスク（四象限で整理）</h2>
+<h3>🔴 第一象限：今すぐやる（緊急×重要）</h3>
+<p><li class="num">1. <strong>面接と交流会の時間重複の解消</strong>（朝イチで連絡）</li></p>
+<p>   - 候補者2名にリスケ可否を打診、または代理面接者をアサイン</p>
+<p><li class="num">2. <strong>弁護士南先生への返信</strong>：旧姓・枚方信用金庫の口座を<strong>財産目録から削除</strong>するよう依頼済み（妻側からの依頼）。先生からの確認待ちだが、追加で令和6年11月1日〜30日分のスクショ未提出なら<strong>本日中に送付</strong>。</li></p>
+<p><li class="num">3. <strong>GitHub PAT "claude-briefing" の確認</strong>（昨夜23時頃発行通知）。自分で発行したものか確認。心当たりなければ即revoke。</li></p>
+<h3>🌱 第二象限：必ず時間を確保する（重要だが緊急でない）</h3>
+<p>逆算思考でいうと、ここが<strong>事業の未来を決める</strong>ゾーンです。会社メール（miki@sl-i.co.jp）に届いた<strong>自分宛タスクリスト</strong>を全件着手すべきですが、パレートで言えば上位の3つに絞るべき：</p>
+<p><li class="num">1. <strong>5年計画を立てる</strong>（経営の北極星。これがないと他の判断がぶれる）</li></p>
+<p><li class="num">2. <strong>債務超過改善 / 利益10〜20%出す仕組み化</strong>（事業継続の生命線）</li></p>
+<p><li class="num">3. <strong>Live配信契約・マネジメント会社×ライバー面談スケジュール組</strong>（売上の新柱、補助金やMA資料の前提）</li></p>
+<p>→ 交流会前の午前〜午後早めに、まず<strong>5年計画のドラフト1時間</strong>だけでも確保推奨。</p>
+<h3>🟡 第三象限：誰かに任せる or 後回し</h3>
+<p><li><strong>補助金申請の資料整理</strong> → 担当者またはチーム内で分担</li></p>
+<p><li><strong>MA資料</strong> → ドラフトはアシスタント/外部依頼</li></p>
+<p><li><strong>契約書のひな型整備</strong> → 法務テンプレ利用 or 顧問弁護士に確認依頼</li></p>
+<h3>⚪ 第四象限（無視/削除）</h3>
+<p><li>and ST クーポン、お名前.com クーポン、楽天カードのポイント通知 → アーカイブでOK</li></p>
+<hr>
+<h2>Slack 要対応メッセージ</h2>
+<p>⚠️ Slack APIから `missing_scope` エラーが返っています。Slack連携の<strong>OAuthスコープ（channels:history, im:history, groups:history 等）</strong>が不足しているため、本日は取得できませんでした。</p>
+<p>→ 後ほどSlack App設定で必要スコープを追加し、再認可してください。</p>
+<hr>
+<h2>未読メール 優先度別</h2>
+<h3>🔴 要対応（本日中）</h3>
+<table><thead><tr><th>差出人</th><th>件名</th><th>アクション</th></tr></thead><tbody><tr><td>三木有子さん</td><td>Re:（財産目録／枚方信金口座の削除依頼）</td><td>弁護士南先生に削除依頼を転送・確認</td></tr><tr><td>弁護士南佳祐先生</td><td>Re:（令和6年11月1〜30日分スクショ要求）</td><td>該当期間の通帳/取引画面を撮影して送付</td></tr><tr><td>株式会社スポーツ＆ライフ・イノベーション（自分宛）</td><td>タスク</td><td>5項目の優先順位付け＆カレンダーに着手枠を入れる</td></tr><tr><td>GitHub</td><td>Personal Access Token "claude-briefing" 発行通知</td><td>自分の操作か確認、不審ならrevoke</td></tr></tbody></table>
+<h3>🟡 確認推奨</h3>
+<p><li>三木有子さん（Re: 資料受領の連絡）→ 既に「確認しておきます」と返信あり。スレッド状況のフォローのみ。</li></p>
+<h3>⚪ 参考・情報</h3>
+<p><li>and ST：1,000円OFFクーポン（〜5/30）</li></p>
+<p><li>お名前.com：3,000円OFFドメインクーポン（2日間限定〜5/17）</li></p>
+<p><li>楽天カード：5月度ポイント236pt獲得通知</li></p>
+<hr>
+<h2>会議の準備メモ</h2>
+<h3>16:00 大さん交流会（Spring Night）</h3>
+<p><li>会費6,000円を持参（現金 or 事前決済済みなら受付確認用QR/メール）</li></p>
+<p><li><strong>名刺を多めに</strong>（60名規模・ビュッフェ＋飲み放題 → 立食メインで交流密度高い）</li></p>
+<p><li>自社紹介の30秒ピッチを用意：令和の虎出演動画リンクが署名にあるので、それを話題のフックにできる</li></p>
+<p><li>17時開始セッションに食い込まないよう、面接の対応方針を<strong>会場入り前に確定</strong></li></p>
+<h3>17:00 / 17:15 盛岡面接（菊地さん・泉さん）</h3>
+<p><li>各15分なので<strong>評価軸を事前固定</strong>（志望動機・スポーツ/ダンス経験・希望シフト・通勤可否）</li></p>
+<p><li>Zoom URL: https://us06web.zoom.us/j/9173436103（パスコード J5nsHC）</li></p>
+<p><li>候補者の履歴書/応募フォームを直前に再確認</li></p>
+<p><li>⚠️ 交流会開始直後の時間帯。会場での参加が無理なら<strong>リスケが本筋</strong></li></p>
+<p></ul></p>
+<hr>
+<h2>一言コーチング</h2>
+<p>今日のあなたは「交流会×面接×離婚案件×経営課題」が同時並行で、典型的な<strong>第一象限の過密日</strong>です。ですが選択理論的にいえば、緊急に振り回されるほど<strong>自分でコントロールできる領域</strong>が縮みます。</p>
+<p>逆算思考で見たとき、今日のラインナップで5年後のあなたを最も助けるのは「<strong>5年計画の骨子を1時間でも書き出すこと</strong>」と「<strong>面接の重複を午前のうちに整理して、夕方の自分を救うこと</strong>」の2つだけです。残りはタスクの<strong>配置と委任</strong>でしのげます。</p>
+<p>> 朝の30分を「未来の自分が感謝する選択」に投資できれば、今日の夜の自分の機嫌が確実に変わります。</p>
+<p>良い1日を。</p>
+
+  </div>
+  <div class="updated">最終更新: 2026/5/16 14:14:14</div>
+</div>
+</body>
+</html>
